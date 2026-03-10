@@ -38,43 +38,54 @@ Scam-Checker/
 ```
 
 ## 🛠️ Getting Started (Local Development)
-**1. Clone the Repository**
 
-Bash
+### 1. Clone the Repository
+
+```bash
 git clone [https://github.com/muhlikVision/Scam-Checker.git](https://github.com/muhlikVision/Scam-Checker.git)
 cd Scam-Checker
+```
 
-**2. Set Up the Backend**
+### 2. Set Up the Backend
 
-Create a .env file in the root directory and add your API keys:
+Create a `.env` file in the root directory and add your API keys:
 
-Code snippet
-
-GEMINI_API_KEY=your_google_gemini_key_there
+```env
+GEMINI_API_KEY=your_google_gemini_key_here
 DATABASE_URL=postgresql://user:password@hostname/dbname
+```
+
 Install dependencies and start the FastAPI server:
 
-Bash
-
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-The backend will be running at http://localhost:8000
+```
+*The backend will be running at `http://localhost:8000`*
 
-**3. Set Up the Frontend**
+### 3. Set Up the Frontend
+
 Open a new terminal window and navigate to the frontend folder:
 
-Bash
-
+```bash
 cd scam-checker-frontend
 npm install
 npm run dev
-The frontend will be running at http://localhost:5173
+```
+*The frontend will be running at `http://localhost:5173`*
 
 ## 🔮 Future Enhancements
-Caregiver Dashboard: A dedicated view for family members to log in and monitor the types of scams targeting their loved ones based on PostgreSQL database logs.
 
-Text Input Fallback: Allow users to paste raw text instead of just screenshots.
+* **Caregiver Dashboard:** A dedicated view for family members to log in and monitor the types of scams targeting their loved ones based on PostgreSQL database logs.
+* **Text Input Fallback:** Allow users to paste raw text instead of just screenshots.
+* **Auth Integration:** Implement JWT or OAuth for secure user profiles.
 
-Auth Integration: Implement JWT or OAuth for secure user profiles.
+## 📸 App Interface & Features
+
+**Accessible, High-Contrast User Interface** <img width="756" height="677" alt="image" src="https://github.com/user-attachments/assets/2a955fc9-a118-4459-b4e3-58eba7b0ed32" />
+
+**AI-Powered Scam Detection** <img width="691" height="779" alt="image" src="https://github.com/user-attachments/assets/01ca9dfb-4133-4e29-ae4d-873848de4c82" />
+
+**Documented FastAPI Backend** <img width="1289" height="928" alt="image" src="https://github.com/user-attachments/assets/ad7b963e-2c04-45b8-b332-821e4ea2882f" />
