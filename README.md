@@ -37,13 +37,15 @@ Scam-Checker/
     └── vite.config.js          # Vite configuration
 ```
 
-🛠️ Getting Started (Local Development)
-1. Clone the Repository
-Bash
+## 🛠️ Getting Started (Local Development)
+**1. Clone the Repository**
 
+Bash
 git clone [https://github.com/muhlikVision/Scam-Checker.git](https://github.com/muhlikVision/Scam-Checker.git)
 cd Scam-Checker
-2. Set Up the Backend
+
+**2. Set Up the Backend**
+
 Create a .env file in the root directory and add your API keys:
 
 Code snippet
@@ -60,7 +62,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 The backend will be running at http://localhost:8000
 
-3. Set Up the Frontend
+**3. Set Up the Frontend**
 Open a new terminal window and navigate to the frontend folder:
 
 Bash
@@ -70,7 +72,7 @@ npm install
 npm run dev
 The frontend will be running at http://localhost:5173
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 Caregiver Dashboard: A dedicated view for family members to log in and monitor the types of scams targeting their loved ones based on PostgreSQL database logs.
 
 Text Input Fallback: Allow users to paste raw text instead of just screenshots.
