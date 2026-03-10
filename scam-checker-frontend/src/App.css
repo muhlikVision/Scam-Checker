@@ -1,0 +1,127 @@
+/* Base Reset and Typography */
+:root {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #f4f7f6;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* The Main Card */
+.container {
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-bottom: 2rem;
+}
+
+/* Form and Button Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+input[type="file"] {
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: 2px dashed #bdc3c7;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Results and Error Boxes */
+.error-box {
+  background-color: #ffeaa7;
+  color: #d63031;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.result-box {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: left;
+  border-left: 8px solid #ccc;
+}
+
+.result-box h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.result-box p {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+/* Dynamic AI Verdict Colors */
+.safe {
+  background-color: #e8f8f5;
+  border-left-color: #2ecc71; /* Bright Green */
+}
+.safe h2 { color: #27ae60; }
+
+.suspicious {
+  background-color: #fef9e7;
+  border-left-color: #f1c40f; /* Warning Yellow/Orange */
+}
+.suspicious h2 { color: #f39c12; }
+
+.scam {
+  background-color: #fdedec;
+  border-left-color: #e74c3c; /* Alert Red */
+}
+.scam h2 { color: #c0392b; }
