@@ -84,8 +84,14 @@ npm run dev
 
 ## 📸 App Interface & Features
 
-**Accessible, High-Contrast User Interface** <img width="756" height="677" alt="image" src="https://github.com/user-attachments/assets/2a955fc9-a118-4459-b4e3-58eba7b0ed32" />
+**Accessible, High-Contrast User Interface**
 
-**AI-Powered Scam Detection** <img width="691" height="779" alt="image" src="https://github.com/user-attachments/assets/01ca9dfb-4133-4e29-ae4d-873848de4c82" />
+<img width="756" height="677" alt="image" src="https://github.com/user-attachments/assets/2a955fc9-a118-4459-b4e3-58eba7b0ed32" />
 
-**Documented FastAPI Backend** <img width="1289" height="928" alt="image" src="https://github.com/user-attachments/assets/ad7b963e-2c04-45b8-b332-821e4ea2882f" />
+**AI-Powered Scam Detection**
+
+<img width="691" height="779" alt="image" src="https://github.com/user-attachments/assets/01ca9dfb-4133-4e29-ae4d-873848de4c82" />
+
+**Documented FastAPI Backend**
+
+<img width="1289" height="928" alt="image" src="https://github.com/user-attachments/assets/ad7b963e-2c04-45b8-b332-821e4ea2882f" />
